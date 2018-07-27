@@ -1,3 +1,5 @@
 #This is a script, which displays text
 
 echo "HELLO RAVI"
+
+echo "Good Morning"
