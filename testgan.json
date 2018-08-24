@@ -42,7 +42,9 @@
         "KeyName": {
           "Ref": "KeyName"
         },
-        "ImageId": "amiID"
+        "ImageId": {
+	 "Ref": "amiID"
+	}
       }
     },
     "InstanceSecurityGroup": {
