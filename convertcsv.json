@@ -1,0 +1,66 @@
+[
+ {
+   "{": "Type",
+   "FIELD2": "AWS::EC2::Instance"
+ },
+ {
+   "{": "Properties",
+   "FIELD2": " {"
+ },
+ {
+   "{": "Affinity",
+   "FIELD2": " default,"
+ },
+ {
+   "{": "AvailabilityZone",
+   "FIELD2": " us-east-1c,"
+ },
+ {
+   "{": "IamInstanceProfile",
+   "FIELD2": " userfive,"
+ },
+ {
+   "{": "ImageId",
+   "FIELD2": " ami-0ff8a91507f77f867,"
+ },
+ {
+   "{": "InstanceType",
+   "FIELD2": " t2.micro,"
+ },
+ {
+   "{": "KeyName",
+   "FIELD2": " julykey,"
+ },
+ {
+   "{": "SecurityGroupIds",
+   "FIELD2": " [sg-fafbaa87],"
+ },
+ {
+   "{": "SecurityGroups",
+   "FIELD2": " [My_Security_Group],"
+ },
+ {
+   "{": "Tags",
+   "FIELD2": " [ Testserver1],"
+ },
+ {
+   "{": "Tenancy",
+   "FIELD2": " default,"
+ },
+ {
+   "{": "UserData",
+   "FIELD2": " echo \"hello\">/var/www/html/index.html,"
+ },
+ {
+   "{": "     ",
+   "FIELD2": ""
+ },
+ {
+   "{": "   }",
+   "FIELD2": ""
+ },
+ {
+   "{": "}",
+   "FIELD2": ""
+ }
+]
