@@ -1,0 +1,17 @@
+{
+   "Type" : "AWS::EC2::Instance",
+   "Properties" : {
+      "Affinity" : default,
+      "AvailabilityZone" : us-east-1c,
+      "IamInstanceProfile" : userfive,
+      "ImageId" : ami-0ff8a91507f77f867,
+      "InstanceType" : t2.micro,
+      "KeyName" : julykey,
+      "SecurityGroupIds" : [sg-fafbaa87],
+      "SecurityGroups" : [My_Security_Group],
+      "Tags" : [ Testserver1],
+      "Tenancy" : default,
+      "UserData" : echo "hello">/var/www/html/index.html,
+     
+   }
+}
