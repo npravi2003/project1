@@ -12,7 +12,7 @@
       "Description": "WebServer EC2 instance type",
       "Type": "String",
       "Default": "t2.micro",
-      "Tag" : "Testserver1",
+      "Tag" ,
       "ConstraintDescription": "must be a valid EC2 instance type."
     },
     "SSHLocation": {
