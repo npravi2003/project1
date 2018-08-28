@@ -1,16 +1,18 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Sample Stack for Ravi",
+  "Description": "Sample Stack for Test",
   "Parameters": {
     "KeyName": {
       "Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
       "Type": "AWS::EC2::KeyPair::KeyName",
+      "Default": "julykey",
       "ConstraintDescription": "must be the name of an existing EC2 KeyPair."
     },
     "InstanceType": {
       "Description": "WebServer EC2 instance type",
       "Type": "String",
       "Default": "t2.micro",
+      "Tag" : "Testserver1",
       "ConstraintDescription": "must be a valid EC2 instance type."
     },
     "SSHLocation": {
